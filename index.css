@@ -1,0 +1,35 @@
+html {
+  background-color: #232323;
+  font-family: monospace;
+  font-size: x-large;
+  color: aliceblue;
+}
+
+#central {
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  margin: -150px 0 0 -300px;
+}
+
+a {
+  text-decoration: none;
+  color: slateblue;
+}
+a:hover {
+  color: #523ebc;
+}
+a:active {}
+a:focus {}
+a:visited {}
+
+h1 {
+  color: #ac6938;
+}
+
+h2 {
+  position: relative;
+  margin-left: 20px;
+}
