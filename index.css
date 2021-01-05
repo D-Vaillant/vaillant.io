@@ -16,20 +16,25 @@ html {
 
 a {
   text-decoration: none;
-  color: slateblue;
-}
-a:hover {
-  color: #523ebc;
 }
 a:active {}
 a:focus {}
 a:visited {}
 
-h1 {
+
+h1 a {
   color: #ac6938;
 }
+h1 a:hover {
+  color: #dd7a31;
+}
 
-h2 {
+
+h2 a {
+  color: slateblue;
   position: relative;
   margin-left: 20px;
+}
+h2 a:hover {
+  color: #523ebc;
 }
