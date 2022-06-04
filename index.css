@@ -1,5 +1,5 @@
 html {
-    background-color: #232323;
+    background-color: #202020;
     font-family: monospace;
     font-size: x-large;
     color: aliceblue;
@@ -19,10 +19,13 @@ html {
 
 a {
     text-decoration: none;
-    color: slateblue;
+    color: darkgrey;
 }
 a:hover {
-    color: #523ebc;
+    color: lightgrey;
+}
+a.DASEIN:hover {
+    color: #1e1e1e;
 }
 
 a:active {}
@@ -30,7 +33,7 @@ a:focus {}
 a:visited {}
 
 h1 {
-    color: #ac6938;
+    color: #acacac;
     margin-bottom: 0px;
 }
 
@@ -41,9 +44,9 @@ h2 {
 
 .subtitle {
     margin-left: 3px;
-    color: #ac6938;
+    color: #b2b2b2;
 }
 
 .subtitle:hover {
-    color: #dd7a31;
+    color: #777777;
 }
